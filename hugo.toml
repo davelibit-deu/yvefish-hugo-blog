@@ -1,0 +1,38 @@
+baseURL = 'https://yvefish.is-cool.dev/'
+title = 'Yvefish'
+theme = 'PaperMod'
+
+[params]
+  author = 'Yvefish'
+  description = 'Yvefish — diary, photos, music and movies.'
+
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+  [params.homeInfoParams]
+    Title = 'Yvefish'
+    Content = 'Diary · Photos · Music · Movies'
+
+[[menu.main]]
+  name = 'Diary'
+  url = '/diary/'
+  weight = 10
+
+[[menu.main]]
+  name = 'Photos'
+  url = '/photos/'
+  weight = 20
+
+[[menu.main]]
+  name = 'Music'
+  url = '/music/'
+  weight = 30
+
+[[menu.main]]
+  name = 'Movies'
+  url = '/movies/'
+  weight = 40
